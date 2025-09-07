@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Website Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📩 Liên Hệ</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2>Form liên hệ</h2>
+    <form onsubmit="event.preventDefault(); alert('Form đã được gửi (demo)!');">
+      <input type="text" placeholder="Tên của bạn" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Nội dung..." rows="4" required></textarea>
+      <button type="submit">Gửi</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
